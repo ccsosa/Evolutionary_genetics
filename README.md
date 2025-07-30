@@ -13,6 +13,7 @@ Para cualquier duda por favor escriba a ccsosa@uniquindio.edu.co.
 - https://benjjneb.github.io/dada2/index.html
 - https://combine-lab.github.io/salmon/
 - https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12158
+- https://academic.oup.com/mbe/article/41/12/msae263/7930299
 - https://www.megasoftware.net/
 - https://cloufield.github.io/GWASTutorial/#pre-gwas
 - https://www.gdc-docs.ethz.ch/UniBS/HS2020/PopGen/site/R_Simulation1/
