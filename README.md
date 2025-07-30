@@ -20,6 +20,7 @@ Para cualquier duda por favor escriba a ccsosa@uniquindio.edu.co.
 - https://academic.oup.com/bioinformatics/article/24/11/1403/191127
 - https://adegenet.r-forge.r-project.org/
 - https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5412
+- https://www.nature.com/articles/s41597-025-05303-2
 - https://www.gendivrange.org/data
 - https://journal.r-project.org/articles/RJ-2024-022/RJ-2024-022.pdf
 - https://www2.decipher.codes/
