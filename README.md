@@ -1,10 +1,12 @@
+# Objetivo de este repositorio
 Este repositorio está diseñado para incluir material de la asignatura de genética II (Genética evolutiva). Solamente está disponible para presentaciones o descarga de datos y archivos para prácticas. 
 Para cualquier duda por favor escriba a ccsosa@uniquindio.edu.co.
 
 > [! IMPORTANTE] NO SE ACEPTAN O CONTESTAN CORREOS FUERA DE HORARIO LABORAL. 
 
+## Para instalar paquetes vea la guia disponible en la semana1
 
-Algunos recursos:
+### Algunos recursos:
 - https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5412
 - https://benjjneb.github.io/dada2/index.html
 - https://combine-lab.github.io/salmon/
@@ -19,3 +21,5 @@ Algunos recursos:
 - https://adegenet.r-forge.r-project.org/
 - https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5412
 - https://www.gendivrange.org/data
+- https://journal.r-project.org/articles/RJ-2024-022/RJ-2024-022.pdf
+- https://www2.decipher.codes/
