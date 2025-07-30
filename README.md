@@ -6,8 +6,10 @@ Para cualquier duda por favor escriba a ccsosa@uniquindio.edu.co.
 
 ## Para instalar paquetes vea la guia disponible en la semana1
 
-### Practicas: - https://evolutionarygenetics.github.io/
-
+### Practicas: 
+- https://evolutionarygenetics.github.io/
+- https://bios1140.github.io/
+- 
 ### Algunos recursos:
 - https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5412
 - https://benjjneb.github.io/dada2/index.html
