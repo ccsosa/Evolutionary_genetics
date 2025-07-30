@@ -25,3 +25,4 @@ Para cualquier duda por favor escriba a ccsosa@uniquindio.edu.co.
 - https://www.gendivrange.org/data
 - https://journal.r-project.org/articles/RJ-2024-022/RJ-2024-022.pdf
 - https://www2.decipher.codes/
+- https://academic.oup.com/bioinformatics/article/26/3/419/215731
