@@ -28,3 +28,5 @@ Para cualquier duda por favor escriba a ccsosa@uniquindio.edu.co.
 - https://academic.oup.com/bioinformatics/article/26/3/419/215731
 - https://popgen.nescent.org/index.html
 - https://www.amnh.org/research/staff-directory/sergios-orestis-kolokotronis/evolutionary-genetics-software
+- https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12558
+- https://peercommunityjournal.org/articles/10.24072/pcjournal.354/
