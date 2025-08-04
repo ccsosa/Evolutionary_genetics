@@ -4,6 +4,8 @@ Para cualquier duda por favor escriba a ccsosa@uniquindio.edu.co.
 
 > [! IMPORTANTE!] NO SE ACEPTAN O CONTESTAN CORREOS FUERA DE HORARIO LABORAL. 
 
+
+# Libro: https://drive.google.com/file/d/1b09WiIHAMxClufrB6UyQa7GSZTh0OlKp/view?usp=drive_link
 ## Para instalar paquetes vea la guia disponible en la semana1
 
 ### Practicas: 
