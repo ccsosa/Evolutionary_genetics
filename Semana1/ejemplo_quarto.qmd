@@ -1,0 +1,54 @@
+---
+title: "SEQ_CHANGES"
+format: html
+editor: visual
+---
+
+# Obteniendo un script para ver cambios en ADN
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Corriendo el código
+
+En esta parte de la practica se simularan dos secuencias
+
+```{r}
+#creating two sequences
+seqA <- "ATAATGATACCATATATA"
+seqB <- "ATACTGATACCCCCCCCC"
+```
+
+Para ser las dos secuencias comparadas se separarán en letras
+
+```{r}
+#splitting sequences in  letters
+seqA <- strsplit(seqA, "")[[1]]
+seqB <- strsplit(seqB, "")[[1]]
+```
+
+Comenzar un contador en cero para contar cambios en nucleotidos
+
+```{r}
+#starting counter
+x <- 0
+```
+
+Contando los cambios en cada posición de los nucleotidos
+
+```{r}
+for(i in 1:length(seqA)){
+  #counting differences
+  if(seqA[[i]]!= seqB[[i]]){
+  x <- x+1
+  }
+}
+```
+
+Obteniendo una medida de que tan cercanas son las dos secuencias
+
+```{r}
+#getting possible changes and obtaining similarities
+x <- 1-(x/length(seqA))
+#print(x)
+print(paste("similitud (%) =",round((x*100),3)))
+```
