@@ -60,6 +60,8 @@ scatter(pramx$DAPC, cex = 0.2, legend = TRUE,
 
 compoplot(pramx$DAPC)
 
+
+assignplot(pramx$DAPC)
 # 
 # col <- funky(5)
 # # scatter(pca1)
