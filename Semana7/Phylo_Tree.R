@@ -141,7 +141,7 @@ aligned_v <- DECIPHER::RemoveGaps(masked_alignment,
 
 # BrowseSeqs(aligned_v)
 #Writing alignment
-Biostrings::writeXStringSet(aligned,file=paste0(seq_dir,"/seqs/","Aligned.fasta"))
+Biostrings::writeXStringSet(aligned_v,file=paste0(seq_dir,"/seqs/","Aligned.fasta"))
 #Reading new alignment using ape to be used in ape and Phangorn
 dna <- ape::read.dna(paste0(seq_dir,"/seqs/","Aligned.fasta"), format="fasta")
 # 
@@ -168,6 +168,7 @@ fit = pml(treeNJ, data=blocks_phyDat)
 fitJC <- optim.pml(fit, model=modelTest_phy$Model[1],pml.control(trace = 0),rearrangement = "NNI")
 #logLik(fitJC) Log ML of the tree
 #Bootstrap using 100 replicates to validate results
+set.seed(123)
 bs = bootstrap.pml(fitJC, bs=100, optNni=TRUE, control = pml.control(trace = 0))
 cnet <- consensusNet(bs, p=0.2)
 # plot(cnet, "2D", show.edge.label=TRUE) #Plots
@@ -175,7 +176,7 @@ cnet <- consensusNet(bs, p=0.2)
 tree <-  plotBS(fit$tree, bs) 
 ss <- list(tree,bs,cnet,fitJC)
 #Saving results
-saveRDS(ss,paste0(seq_dir,"/seqs/","phy_final.RDS"))
-ss <-  readRDS(paste0(seq_dir,"/seqs/","phy_final.RDS"))
-#Saving tree to be used in Phyloseq R package
 write.tree(tree,paste0(seq_dir,"/seqs/","pml.tree")) 
+saveRDS(ss,paste0(seq_dir,"/seqs/","phy_final.RDS"))
+# ss <-  readRDS(paste0(seq_dir,"/seqs/","phy_final.RDS"))
+#Saving tree to be used in Phyloseq R package
